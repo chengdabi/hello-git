@@ -1,0 +1,30 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.so
+build/
+cmake-build-*/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.user
+*.suo
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 敏感信息
+.env
+*.key
+*.pem
+
+# 日志与临时
+*.log
+*.tmp
+tmp/
